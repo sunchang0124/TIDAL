@@ -1,0 +1,3 @@
+include:
+  - project: 'vincenttunru/ci-templates'
+    file: '/npm-node10.gitlab-ci.yml'

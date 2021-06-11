@@ -1,0 +1,9 @@
+{
+  "@context": "https://linkedsoftwaredependencies.org/bundles/npm/@comunica/actor-http-solid-auth-fetch/^1.0.0/components/context.jsonld",
+  "@id": "npmd:@comunica/actor-http-solid-auth-fetch",
+  "@type": "Module",
+  "requireName": "@comunica/actor-http-solid-auth-fetch",
+  "import": [
+    "files-chsaf:components/Actor/Http/SolidAuthFetch.jsonld"
+  ]
+}

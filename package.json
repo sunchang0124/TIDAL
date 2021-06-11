@@ -1,0 +1,27 @@
+{
+  "name": "solidtryout",
+  "version": "1.0.0",
+  "description": "This is the first try out for solid app",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chang Sun",
+  "license": "MIT",
+  "dependencies": {
+    "@rdfjs/data-model": "^1.1.2",
+    "@solid/query-ldflex": "^2.11.2",
+    "js-yaml": "^3.14.0",
+    "node-fetch": "^2.6.1",
+    "rdf-namespaces": "^1.8.0",
+    "solid-auth-client": "^2.4.1",
+    "tripledoc": "^4.3.4",
+    "tweetnacl": "^1.0.3",
+    "tweetnacl-util": "^0.15.1"
+  },
+  "devDependencies": {
+    "@types/request": "^2.48.5",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
