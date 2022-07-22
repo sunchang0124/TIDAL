@@ -1,8 +1,8 @@
 # test file
-**/test.js
-**/gitindex.js
-**/_config.yml
-**/package-lock.json
+/test.js
+/src/gitindex.js
+/_config.yml
+/package-lock.json
 
 # Ingore Mac weird file
 **/.DS_Store
