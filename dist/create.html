@@ -230,7 +230,7 @@
       <h3 class="ui header">Create a file and write your data triples in</h3>
 
       <div class="ui bottom attached segment">
-        <h4>Please give the location where you want to save the data file + file name:</h4>
+        <h4>Please give the location where you want to create/modify the file (path+file name):</h4>
         <div class="ui input">
           <input type="url" id="fileLocation" placeholder="https://chang.inrupt.net/public" size="30">
         </div>
@@ -255,19 +255,19 @@
 
     
       <div class="ui bottom attached segment">
-        <h4>An identifier with which this Subject can be identified within the file will auto-generated.</h4>
+        <h4>Please give the data element URI (predicate) and the value (object), then click the (+) button.</h4>
         <!-- <div class="ui input">
           <input type="url" id="addTriplePredicate" placeholder="Valid Predicate URI" size="30">
         </div> -->
         
         <div class="ui icon input">
           <input type="url" id="addTriplePredicate" placeholder="Valid Predicate URI" size="30">
-          <i class="inverted circular predicateSuggestion search link icon"></i>
+          <!-- <i class="inverted circular predicateSuggestion search link icon"></i> -->
         </div>
 
         <div class="ui icon input">
           <input placeholder="Object (string, number, ref...)" id="addTripleObject" size="30">
-          <i class="inverted circular objectSuggestion search link icon"></i>
+          <!-- <i class="inverted circular objectSuggestion search link icon"></i> -->
         </div>
 
         <button class="ui orange icon button addSingleTriple listen" id="" onclick="displayFunction(false)">
@@ -281,7 +281,7 @@
         </div>
 
         <h4 class="ui horizontal header divider">
-          <div class="ui blue button addData listen" onclick="displayFunction(false)">Add above triples</div>
+          <div class="ui blue button addData listen" onclick="displayFunction(false)">Add above triples to my pod</div>
         </h4>
         
       </div>

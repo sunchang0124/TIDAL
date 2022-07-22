@@ -306,9 +306,10 @@ async function getNotesList(profileHead, fileLocation, fileName) {
     // We will define this function later:
     return initialiseNotesList(profile, pubPriTypeIndex, predicateIndex).then(()=> alert("New file "+predicateIndex+" is created!"));
   }
-
-  /* 3. If it does exist, fetch that Document. */
+  
+    /* 3. If it does exist, fetch that Document. */
   const notesListRef = notesListEntry.getRef(solid.instance);
+
 
   return await fetchDocument(notesListRef);
 }
@@ -1728,11 +1729,13 @@ btns.forEach(function(btn) {
           fetchedDoc.textContent = "Your file exists but nothing is inside!"
         }
         alert("Your file already exists!");
-    
-      }).catch((err)=> {
-        const fetchedDoc = document.getElementById("createMessage");
-        fetchedDoc.textContent = err.message
+
       });
+
+      // }).catch((err)=> {
+      //   const fetchedDoc = document.getElementById("createMessage");
+      //   fetchedDoc.textContent = err.message
+      // });
     }
 
     else if (styles.contains('addSingleTriple')) {
