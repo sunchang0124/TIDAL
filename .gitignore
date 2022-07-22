@@ -3,6 +3,7 @@
 /src/gitindex.js
 /_config.yml
 /package-lock.json
+/tsconfig.json
 
 # Ingore Mac weird file
 **/.DS_Store
