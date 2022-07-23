@@ -1,0 +1,26 @@
+{
+  "name": "solid_app_server",
+  "version": "1.0.0",
+  "description": "This is for solid app server to run analysis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solid/query-ldflex": "^2.11.3",
+    "csv-writer": "^1.6.0",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "js-yaml": "^3.14.0",
+    "longjohn": "^0.2.12",
+    "node-docker-api": "^1.1.22",
+    "p-limit": "^3.1.0",
+    "solid-auth-cli": "^1.0.14",
+    "solid-node-client": "^2.0.2",
+    "tar-fs": "^2.1.0",
+    "tweetnacl": "^1.0.3",
+    "tweetnacl-util": "^0.15.1"
+  }
+}

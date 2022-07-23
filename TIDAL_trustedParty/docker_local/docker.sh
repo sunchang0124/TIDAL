@@ -1,0 +1,1 @@
+docker build -t docforsolid:v3.0 .
