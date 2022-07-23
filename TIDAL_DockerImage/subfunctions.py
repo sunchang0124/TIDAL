@@ -21,10 +21,10 @@ import seaborn as sns
 import statsmodels.api as sm
 from collections import Counter
 import matplotlib.pyplot as plt
-# from bokeh.transform import factor_cmap
-# from bokeh.models import ColumnDataSource
-# from bokeh.plotting import figure,save
-# from bokeh.palettes import Spectral10
+from bokeh.transform import factor_cmap
+from bokeh.models import ColumnDataSource
+from bokeh.plotting import figure,save
+from bokeh.palettes import Spectral10
 
 
 import redacted_logging as rlog
@@ -63,10 +63,10 @@ def check_missing(data_frame, column_names, file_name):
         sort_table = df_misVariables.sort_values(by=['Percentage (%)'], ascending=False)
         # display(sort_table.style.bar(subset=['Percentage (%)'], color='#d65f5f'))
         
-        outputFile = './output/%s_missings.csv' %file_name
+        outputFile = 'output/%s_missings.csv' %file_name
         os.makedirs(os.path.dirname(outputFile), exist_ok=True)
         sort_table.to_csv(outputFile)
-        logger.info('Check missing outcome is saved to ./output/%s_missings.csv' %file_name)
+        logger.info('Check missing outcome is saved to output/%s_missings.csv' %file_name)
     logger.debug('Missing values check is done!')
 
 def data_describe(data_frame, column_names, file_name):
@@ -80,7 +80,7 @@ def data_describe(data_frame, column_names, file_name):
     Returns:
         No return variables but generate "*file_name*/%s_describe.csv"
     """
-    outputFile = './output/%s_describe.csv' %file_name
+    outputFile = 'output/%s_describe.csv' %file_name
     os.makedirs(os.path.dirname(outputFile), exist_ok=True)
     data_frame.describe().to_csv(outputFile)
     logger.info('There is %d rows and %d columns' %(len(data_frame), len(column_names)))
@@ -117,7 +117,7 @@ def corr_Matrix(data_frame, file_name):
                 square=True, linewidths=.2, cbar_kws={"shrink": 0.8})
     plt.title('Correlation Matrix in %s' % file_name)
 
-    filename = './output/Output_CM/%s.png' %file_name
+    filename = 'output/Output_CM/%s.png' %file_name
     os.makedirs(os.path.dirname(filename), exist_ok=True)
     plt.savefig(filename)
     logger.debug('Correlation Matrix plot is done')
@@ -132,7 +132,7 @@ def analysis_model(data_frame, analysis_model_name, analysis_model_target, file_
     results = model.fit().summary()
 
     ### Write results out to a csv file ###
-    filename = './output/%s_%s.csv' %(analysis_model_name, file_name)
+    filename = '/output/%s_%s.csv' %(analysis_model_name, file_name)
     os.makedirs(os.path.dirname(filename), exist_ok=True)
     with open(filename,'w') as outputFile:
         outputFile.write(results.as_csv())

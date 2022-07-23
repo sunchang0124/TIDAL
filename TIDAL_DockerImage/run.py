@@ -83,12 +83,12 @@ def main():
     start_time = time.time()
     
     logger = rlog.get_logger(__name__)
-    input_yaml_file_name = "./input/config.yaml"
+    input_yaml_file_name = "/input/config.yaml"
     input_yaml = load_yaml_file(input_yaml_file_name, logger)
     
     # Read data path and delimiter from configuration file
     try:
-        file_path = "./input/data_file.csv"# input_yaml['data_file']
+        file_path = "/input/data_file.csv"# input_yaml['data_file']
         file_sep = ','
     except KeyError:
         logger.error("config.yaml file is not valid. Please consult the example ")
