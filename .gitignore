@@ -1,9 +1,9 @@
 # test file
-/test.js
-/src/gitindex.js
-/_config.yml
-/package-lock.json
-/tsconfig.json
+/TIDAL_App/test.js
+/TIDAL_App/src/gitindex.js
+/TIDAL_App/_config.yml
+/TIDAL_App/package-lock.json
+/TIDAL_App/tsconfig.json
 
 # Ingore Mac weird file
 **/.DS_Store

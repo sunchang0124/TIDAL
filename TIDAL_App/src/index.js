@@ -890,8 +890,8 @@ function writeAllRequest(profile, requestTriples, fetchRequest){
         dataProcessingCategoryList.push(requestTriples[i].object.value);}
       // if (requestTriples[i].predicate.id === requestOntologyGlobal){
       //   ontologyList.push(requestTriples[i].object.value);}
-      if (requestTriples[i].predicate.id === requestExpiryGlobal){
-        requestContent.period = "End date: " + requestTriples[i].object.value;}
+      // if (requestTriples[i].predicate.id === requestExpiryGlobal){
+      //   requestContent.period = "End date: " + requestTriples[i].object.value;}
       if (requestTriples[i].predicate.id === requestAnalysisLogicGlobal){
         requestContent.analysis = "Analysis: " + requestTriples[i].object.value;}
       if (requestTriples[i].predicate.id === requestCollectionSizeGlobal){
