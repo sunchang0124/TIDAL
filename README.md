@@ -33,7 +33,7 @@ npx webpack
 http-server -c-1
 ```
 
-
+<!--
 ### How does it look like? ###
 You can try the [SOLID App](https://sunchang0124.github.io/dist/homepage.html) by yourself. The following functions are implemented in my Solid app so far. You can watch [this video](https://youtu.be/oVFDoKmbpUg) to get the first impression.
 
@@ -48,7 +48,7 @@ You can also jump to the function which you are interested in particular:
 8. [Analyze requested data in regular analysis setting](https://www.youtube.com/watch?v=oVFDoKmbpUg&t=23m01s)
 9. [Participate in a privacy-preserving data request](https://www.youtube.com/watch?v=oVFDoKmbpUg&t=24m44s) 
 10. [Analysis in the privacy-preserving data request](https://www.youtube.com/watch?v=oVFDoKmbpUg&t=27m50s)
-
+-->
 
 ### How has it been built? ###
 Please go to [Wiki page](https://github.com/sunchang0124/sunchang0124.github.io/wiki) for: 
