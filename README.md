@@ -7,6 +7,11 @@ Editor: [Chang Sun](chang.sun@maastrichtuniversity.nl)
 
 Abstract: This repository shows how to build a SOLID application to fetch/create/modify data in your SOLID Pod, start a data request (for research), and participate in researchers' data request. This is my first SOLID application built in a very limited time. I will learn from others and improve it step by step. Welcome to contact me if you have any questions :)
 
+To know more about the development of TIDAL, you can read our publication [ciTIzen-centric DAta pLatform (TIDAL): Sharing Distributed Personal Data in a Privacy-Preserving Manner for Health Research](http://www.semantic-web-journal.net/content/citizen-centric-data-platform-tidal-sharing-distributed-personal-data-privacy-preserving)
+
+To quickly view what TIDAL can do, you are welcome to watch this [intro video](https://youtu.be/SqWcfNMfAcg)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/SqWcfNMfAcg/0.jpg)](https://youtu.be/SqWcfNMfAcg)
+
 ***
 ### How to use ###
 Here is a running prototype version: https://sunchang0124.github.io/dist/homepage.html 
