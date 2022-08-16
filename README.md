@@ -1,4 +1,4 @@
-# Hello, SOLID
+# Hello, TIDAL (ciTIzen-centric DAta pLatform)! 
 
 Start Date: 17-05-2020
 Update Date: 13-06-2020
