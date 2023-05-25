@@ -38,6 +38,12 @@ npx webpack
 http-server -c-1
 ```
 
+If you face issues with webpack (Node.js and webpack version may cause issues, try
+```
+NODE_OPTIONS=--openssl-legacy-provider npx webpack
+http-server -c-1
+```
+
 <!--
 ### How does it look like? ###
 You can try the [SOLID App](https://sunchang0124.github.io/dist/homepage.html) by yourself. The following functions are implemented in my Solid app so far. You can watch [this video](https://youtu.be/oVFDoKmbpUg) to get the first impression.
